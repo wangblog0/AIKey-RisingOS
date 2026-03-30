@@ -29,6 +29,4 @@ key 115   VOLUME_UP
 key 114   VOLUME_DOWN
 key 102   HOME
 key 528   FOCUS
-# Some kernels expose Mi 9 AI key as 766 instead of 689.
-key 766   ASSIST
-key 689   ASSIST
+key 689   VOICE_ASSIST

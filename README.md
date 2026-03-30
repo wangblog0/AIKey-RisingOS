@@ -1,6 +1,6 @@
 # Mi 9 AI Key -> Gemini (RisingOS)
 
-This Magisk module remaps Xiaomi Mi 9 AI key scan code `689` to Android `ASSIST` key.
+This Magisk module remaps Xiaomi Mi 9 AI key scan code `689` to Android `VOICE_ASSIST` key.
 
 ## What it does
 
@@ -8,10 +8,10 @@ This Magisk module remaps Xiaomi Mi 9 AI key scan code `689` to Android `ASSIST`
 - Adds mapping:
 
 ```kl
-key 689   ASSIST
+key 689   VOICE_ASSIST
 ```
 
-On AOSP-like ROMs (including RisingOS), `ASSIST` triggers the current default assistant app.
+On AOSP-like ROMs (including RisingOS), `VOICE_ASSIST` triggers the voice assistant flow.
 
 ## How to use with Gemini
 
@@ -22,5 +22,4 @@ On AOSP-like ROMs (including RisingOS), `ASSIST` triggers the current default as
 
 ## Notes
 
-- If your build does not react to `ASSIST`, try changing mapping to `VOICE_ASSIST`.
 - This module is designed for Xiaomi Mi 9 keycode `689`.
